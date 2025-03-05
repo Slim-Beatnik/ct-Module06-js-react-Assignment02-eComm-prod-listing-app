@@ -166,7 +166,7 @@ If you feel confident, you can extend the app by adding:
     <a href="https://github.com/Slim-Beatnik/ct-Module06-js-react-Assignment02-eComm-prod-listing-app"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="kh-ct-module06-assignment02.netlify.app">View Demo on Netlify</a>
+    <a href="https://kh-ct-module06-assignment02.netlify.app">View Demo on Netlify</a>
     &middot;
     <a href="https://github.com/Slim-Beatnik/ct-Module06-js-react-Assignment02-eComm-prod-listing-app/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
