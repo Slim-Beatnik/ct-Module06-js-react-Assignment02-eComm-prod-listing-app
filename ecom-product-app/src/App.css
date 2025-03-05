@@ -5,38 +5,105 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+img {
+  width: 6rem;
+  height: 6rem;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Victorian Gothic Bazaar Styles */
+body {
+  background: #121212;
+  color: #d4d4d4;
+  font-family: 'IM Fell English', serif;
+  margin: 0;
+  padding: 2rem;
+  text-align: center;
+  background-size: 200px;
+  background-blend-mode: multiply;
+}
+
+h1 {
+  font-size: 4rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #9c8468;
+  border-bottom: 2px solid #9c8468;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+
+table {
+  width: 90%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background: #1e1e1ee6;
+  border: 1px solid #9c8468;
+}
+
+caption {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+th, td, input {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #9c8468;
+}
+
+th, input{
+  background: #141414cc;
+  color: #9c8468;
+}
+
+tbody tr:hover {
+  background: #9c846833;
+  transition: background 0.3s ease;
+  td {
+    color: #f9f9f9;
   }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 3px solid #9c8468;
+  transition: transform 0.3s ease;
 }
 
-.card {
-  padding: 2em;
+tr:nth-child(odd) img:hover {
+  transform: scale(4.1) rotate(-2deg);
+}
+tr:nth-child(even) img:hover {
+  transform: scale(4.1) rotate(2deg);
 }
 
-.read-the-docs {
-  color: #888;
+button {
+  background: #9c8468;
+  color: #121212;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 10px #00000099;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #7f6a52;
+}
+
+::selection {
+  background: #9c8468;
+  color: #121212;
+}
+
+input {
+  width: 50%;
+  margin-bottom: 1rem;
+}
+
+footer {
+  margin-top: 6rem;
 }
