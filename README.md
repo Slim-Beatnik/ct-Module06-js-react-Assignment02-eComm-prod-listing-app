@@ -157,10 +157,16 @@ If you feel confident, you can extend the app by adding:
 ✅ Test your app frequently to **catch errors early**.  
 ✅ Ensure your CSS provides a **consistent and appealing UI**.
     <br />
+    My main take aways:
+    *  More documentation before starting the assignment would have been great.
+    *  React tables are a bit different, uniq id keys are important for sorting and filtering - remember for future projects, useMemo, and nanoid
+    *  Inline styles should be avoided for readability and overall convenience
+    *  ?? - the nullish coalescing operator, which uses format objectToCheck ?? altValueOrObjectInplaceOnFail is a relatively good replacement for ||= (which is not available in .jsx)
+    <br />
     <a href="https://github.com/Slim-Beatnik/ct-Module06-js-react-Assignment02-eComm-prod-listing-app"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="kh-ct-module06-assignment02.netlify.app">View Demo</a>
+    <a href="kh-ct-module06-assignment02.netlify.app">View Demo on Netlify</a>
     &middot;
     <a href="https://github.com/Slim-Beatnik/ct-Module06-js-react-Assignment02-eComm-prod-listing-app/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
@@ -264,7 +270,7 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+This is just to show my understanding of the assignment
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
@@ -274,11 +280,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- ROADMAP -->
 ## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
 
 See the [open issues](https://github.com/Slim-Beatnik/ct-Module06-js-react-Assignment02-eComm-prod-listing-app/issues) for a full list of proposed features (and known issues).
 
@@ -313,7 +314,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the none. See `LICENSE.txt` for more information.
+Distributed under the NO LICENSE. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -322,7 +323,7 @@ Distributed under the none. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - totem64@gmail.com
+Kyle Hill - [@twitter_handle](https://twitter.com/twitter_handle) - totem64@gmail.com
 
 Project Link: [https://github.com/Slim-Beatnik/ct-Module06-js-react-Assignment02-eComm-prod-listing-app](https://github.com/Slim-Beatnik/ct-Module06-js-react-Assignment02-eComm-prod-listing-app)
 
@@ -333,9 +334,7 @@ Project Link: [https://github.com/Slim-Beatnik/ct-Module06-js-react-Assignment02
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
