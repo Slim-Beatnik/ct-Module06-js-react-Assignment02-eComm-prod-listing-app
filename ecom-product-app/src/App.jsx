@@ -30,6 +30,7 @@ function App() {
         value={ filter }
         onChange={ filterTerm => setFilter(filterTerm.target.value) }
       />
+      //BONUS - filter
       <ProductList products={ filteredProducts }/>
       <footer>
         <p>&#x1f12f; 2025 Your Mom, Inc. No rights reserved.</p>
