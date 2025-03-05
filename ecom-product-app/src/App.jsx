@@ -16,6 +16,7 @@ function App() {
 
   const [filter, setFilter] = useState('')
 
+  // BONUS - filter
   const filteredProducts = products.filter(product => 
     product.name.toLowerCase().includes(filter.toLowerCase()) ||
     product.sellerId.toLowerCase().includes(filter.toLowerCase())
@@ -30,7 +31,6 @@ function App() {
         value={ filter }
         onChange={ filterTerm => setFilter(filterTerm.target.value) }
       />
-      //BONUS - filter
       <ProductList products={ filteredProducts }/>
       <footer>
         <p>&#x1f12f; 2025 Your Mom, Inc. No rights reserved.</p>
